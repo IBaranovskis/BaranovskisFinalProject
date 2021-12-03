@@ -4,7 +4,7 @@ import MyProject.base.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 
-public class HomePage1aLv extends TestBase {
+public class HomePage extends TestBase {
     private final By searchField = By.xpath("//input[@id='q']");
 
     public void setSearchField(String computer) {
